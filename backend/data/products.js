@@ -1,0 +1,88 @@
+const products = [
+  {
+    name: 'Wireless Headphones',
+    description: 'High quality sound with noise cancellation',
+    price: 99.99,
+    image: 'https://tse2.mm.bing.net/th/id/OIP.dVfJuk_WPbGJ45UBzCrCnQHaHt?pid=Api&P=0&h=180',
+    countInStock: 10,
+  },
+  {
+    name: 'Smart Watch',
+    description: 'Track fitness, receive notifications, and more',
+    price: 149.99,
+    image: 'https://tse2.mm.bing.net/th/id/OIP.Apst0iBNqTuwWAKkupBJ_QHaHy?pid=Api&P=0&h=180',
+    countInStock: 20,
+  },
+  {
+    name: 'Gaming Mouse',
+    description: 'Ergonomic mouse with customizable DPI settings',
+    price: 49.99,
+    image: 'https://tse3.mm.bing.net/th/id/OIP.8S7KGKQQkHOjbInhLPJYIgHaE5?pid=Api&P=0&h=180',
+    countInStock: 15,
+  },
+  {
+    name: 'Mechanical Keyboard',
+    description: 'RGB backlit mechanical keyboard for gamers',
+    price: 89.99,
+    image: 'https://tse1.mm.bing.net/th/id/OIP.37s0yEdlJf-W09_PrX_GGAHaEK?pid=Api&P=0&h=180',
+    countInStock: 25,
+  },
+  {
+    name: '4K Monitor',
+    description: '27-inch UHD monitor with HDR support',
+    price: 299.99,
+    image: 'https://tse1.mm.bing.net/th/id/OIP.yzN5LsbAFr_Q8zX1gNPL_wHaHa?pid=Api&P=0&h=180',
+    countInStock: 8,
+  },
+  {
+    name: 'Bluetooth Speaker',
+    description: 'Portable speaker with deep bass and waterproof design',
+    price: 59.99,
+    image: 'https://tse1.mm.bing.net/th/id/OIP.g-IXaRH2deMRDkasq9BDFQHaHa?pid=Api&P=0&h=180',
+    countInStock: 30,
+  },
+  {
+    name: 'Laptop Stand',
+    description: 'Adjustable aluminum stand for laptops',
+    price: 39.99,
+    image: 'https://tse2.mm.bing.net/th/id/OIP.OVNRb-BptQPtTrOCiuKKyAHaHa?pid=Api&P=0&h=180',
+    countInStock: 18,
+  },
+  {
+    name: 'USB-C Hub',
+    description: '7-in-1 USB-C hub with HDMI and card reader',
+    price: 29.99,
+    image: 'https://tse4.mm.bing.net/th/id/OIP.GRk7H6uI3G-tQ7y6EHXnZAHaHa?pid=Api&P=0&h=180',
+    countInStock: 22,
+  },
+  {
+    name: 'Noise Cancelling Earbuds',
+    description: 'Wireless earbuds with active noise cancellation',
+    price: 79.99,
+    image: 'https://tse4.mm.bing.net/th/id/OIP.tL9fFd4u6MC_V4IXY2md0QHaGp?pid=Api&P=0&h=180',
+    countInStock: 12,
+  },
+  {
+    name: 'External SSD',
+    description: '1TB USB 3.1 portable solid state drive',
+    price: 109.99,
+    image: 'https://tse4.mm.bing.net/th/id/OIP.9VewmshkIj1ejN7fOZHw9gHaE7?pid=Api&P=0&h=180',
+    countInStock: 14,
+  },
+  {
+    name: 'Smart LED Bulb',
+    description: 'Color-changing Wi-Fi bulb with app control',
+    price: 19.99,
+    image: 'https://tse1.mm.bing.net/th/id/OIP.miSChfeA8hd6sWEVH2wiZAHaHa?pid=Api&P=0&h=180',
+    countInStock: 50,
+  },
+  {
+    name: 'Webcam 1080p',
+    description: 'Full HD webcam with built-in microphone',
+    price: 44.99,
+    image: 'https://tse2.mm.bing.net/th/id/OIP.tjGKxN88hIk_7qsp9mW1vAHaHa?pid=Api&P=0&h=180',
+    countInStock: 16,
+  },
+];
+
+module.exports = products;
